@@ -12,8 +12,8 @@ const SITE_CONFIG = {
     telefono: '+34 619 45 34 12',
     telefonoHref: 'tel:+34619453412',
     telefonoDisplay: '619 45 34 12',
-    email: 'reformasnyn@hotmail.com',
-    emailHref: 'mailto:reformasnyn@hotmail.com',
+    email: 'quique-galvez@hotmail.com',
+    emailHref: 'mailto:quique-galvez@hotmail.com',
     copyrightYear: new Date().getFullYear(),
   },
 
@@ -146,17 +146,19 @@ const SITE_CONFIG = {
         destacado: true,
         imagenes: ['images/gallery_3.jpg'],
       },
+      /* Ejemplo: descomenta y añade tu foto en images/gallery_4.jpg
       {
-        id: 'cocina-valencia-1',
+        id: 'cocina-benisano-1',
         titulo: 'Reforma de Cocina',
         ubicacion: 'Valencia',
         categoria: 'cocina',
         imagen: 'images/gallery_4.jpg',
         imagenAlt: 'Cocina reformada en Valencia',
-        descripcion: 'Cocina abierta con isla central y acabados modernos.',
+        descripcion: 'Cocina abierta con isla central.',
         destacado: true,
         imagenes: ['images/gallery_4.jpg'],
       },
+      */
     ],
   },
 
@@ -193,7 +195,7 @@ const SITE_CONFIG = {
        * Opcional (más estable): regístrate en https://web3forms.com,
        * copia tu Access Key y pégala en web3formsAccessKey.
        */
-      emailDestino: '', // vacío = usa empresa.email
+      emailDestino: 'reformasnyn@hotmail.com', // FormSubmit envía aquí
       web3formsAccessKey: '',
       formspreeEndpoint: '', // ej: https://formspree.io/f/xxxxxx
       asuntoEmail: 'Nuevo presupuesto — Reformas N&N Valencia',

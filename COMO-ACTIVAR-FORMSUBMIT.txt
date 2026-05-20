@@ -1,0 +1,105 @@
+═══════════════════════════════════════════════════════════════
+  ACTIVAR EL FORMULARIO DE LA WEB (FormSubmit)
+  Correo: reformasnyn@hotmail.com
+═══════════════════════════════════════════════════════════════
+
+¿POR QUÉ HAY QUE ACTIVARLO?
+---------------------------
+FormSubmit es un servicio GRATIS que reenvía los mensajes del
+formulario de tu web a tu correo. La primera vez, Hotmail debe
+confirmar que TÚ eres el dueño de reformasnyn@hotmail.com.
+Solo tú puedes hacerlo (abriendo un email). Nadie más puede
+activarlo por ti, ni siquiera quien hizo la web.
+
+
+PASO 1 — Abre tu correo
+-------------------------
+Entra en Outlook / Hotmail con la cuenta:
+
+   reformasnyn@hotmail.com
+
+Revisa estas carpetas (en este orden):
+   1. Bandeja de entrada
+   2. Correo no deseado / SPAM
+   3. Promociones (si usas Outlook nuevo)
+
+Busca un email de:
+   FormSubmit  o  formsubmit.co
+
+Asunto parecido a:
+   "Activate Form"  /  "Activate your form"
+
+
+PASO 2 — Pulsa el enlace de activación
+---------------------------------------
+Dentro del correo hay un botón o enlace que dice algo como:
+
+   "Activate Form"   o   "Activate your form"
+
+Haz CLIC UNA VEZ. Se abrirá una página de FormSubmit que dirá
+que el formulario está activado.
+
+
+PASO 3 — Prueba la web
+-----------------------
+1. Abre tu web publicada (Vercel), por ejemplo:
+   https://tu-proyecto.vercel.app
+
+2. Baja a "Contacto" y rellena el formulario con datos de prueba.
+
+3. Pulsa "Quiero mi presupuesto gratuito".
+
+4. Debe salir el mensaje verde: "Solicitud enviada..."
+
+5. En 1-5 minutos debe llegar OTRO correo a reformasnyn@hotmail.com
+   con los datos del cliente (nombre, teléfono, tipo de reforma...).
+
+
+SI NO LLEGA EL CORREO DE ACTIVACIÓN
+-----------------------------------
+Opción A — Envía tú mismo una prueba desde la web publicada
+   (el primer envío también dispara el email de activación).
+
+Opción B — Entra en https://formsubmit.co
+   - No hace falta crear cuenta para el plan básico.
+   - El email de activación se envía al hacer el primer envío
+     desde cualquier web que use ese correo.
+
+Opción C — Vuelve a enviar desde la web tras 10 minutos
+   (a veces Hotmail tarda).
+
+
+DESPUÉS DE ACTIVAR
+------------------
+✓ Cada presupuesto que envíen desde la web llegará a
+  reformasnyn@hotmail.com
+
+✓ El visitante verá "enviado correctamente" en pantalla
+
+✓ No hace falta volver a activar salvo que cambies de correo
+
+
+SI CAMBIAS DE EMAIL EN EL FUTURO
+--------------------------------
+1. Edita js/config.js → empresa.email
+2. Sube con git push
+3. Repite esta activación con el NUEVO correo
+
+
+CÓDIGO YA CONFIGURADO EN TU WEB
+-------------------------------
+Archivo: js/config.js
+   email: 'reformasnyn@hotmail.com'
+
+Archivo: js/form-email.js
+   Envía automáticamente a ese correo vía FormSubmit.
+
+
+¿PROBLEMAS?
+-----------
+- Formulario dice enviado pero no llega email → revisa SPAM
+- Error al enviar → prueba en la web publicada (no abriendo
+  index.html con doble clic; usa la URL de Vercel)
+- Muchos envíos al mes → considera web3forms.com (gratis también)
+
+═══════════════════════════════════════════════════════════════

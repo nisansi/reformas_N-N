@@ -79,15 +79,17 @@ Edita las variables al inicio de `style.css`:
 
 ## Formulario → correo electrónico
 
-El formulario **envía a `empresa.email`** (`reformasnyn@hotmail.com` por defecto) usando [FormSubmit](https://formsubmit.co) (gratis, sin servidor).
+El formulario envía a **reformasnyn@hotmail.com** usando [FormSubmit](https://formsubmit.co) (gratis).
 
-### Activación (solo una vez, antes de usar en producción)
+**Guía completa de activación:** lee `COMO-ACTIVAR-FORMSUBMIT.txt` en la raíz del proyecto.
 
-1. Publica la web (ver abajo) o pruébala en local con `npx serve .`
-2. Envía un formulario de prueba desde la web
-3. Revisa **reformasnyn@hotmail.com** (y la carpeta **Spam**)
-4. Abre el correo de FormSubmit y pulsa el enlace **Activate Form**
-5. A partir de ahí, cada solicitud de presupuesto llegará a ese buzón
+### Activación (solo una vez — debes hacerlo tú)
+
+1. Revisa **reformasnyn@hotmail.com** (y **Spam**)
+2. Busca un email de **FormSubmit** → asunto *Activate Form*
+3. Pulsa el enlace **Activate Form**
+4. Prueba el formulario en la web publicada (Vercel)
+5. A partir de ahí, cada presupuesto llegará a ese buzón
 
 ### Opcional: Web3Forms (recomendado si hay muchos envíos)
 
