@@ -202,7 +202,7 @@ const SITE_CONFIG = {
       mensajeEnviando: 'Enviando solicitud…',
       mensajeExito: '✓ Solicitud enviada. Te contactaremos en menos de 48 horas.',
       mensajeError:
-        'No se pudo enviar. Llámanos al 619 45 34 12 o escríbenos por WhatsApp.',
+        'No se pudo enviar. Activa FormSubmit en Reformasnyn@hotmail.com (ver COMO-ACTIVAR-FORMSUBMIT.txt) o llámanos al 619 45 34 12.',
       botonEnviar: 'Quiero mi presupuesto gratuito',
     },
   },

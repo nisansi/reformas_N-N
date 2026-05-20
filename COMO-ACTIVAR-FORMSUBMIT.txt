@@ -55,6 +55,20 @@ PASO 3 — Prueba la web
    con los datos del cliente (nombre, teléfono, tipo de reforma...).
 
 
+SI EL FORMULARIO DICE "NO SE PUDO ENVIAR"
+-----------------------------------------
+1. ¿Abriste la web con doble clic en index.html?
+   → NO funciona. Usa la URL de Vercel o: npx serve .
+
+2. ¿Activaste FormSubmit? (pasos de abajo)
+
+3. Tras activar, recarga la web con Ctrl+F5 y prueba otra vez.
+
+4. Si sigue fallando, el formulario intentará un envío
+   alternativo y te redirigirá a la misma página con
+   mensaje de éxito.
+
+
 SI NO LLEGA EL CORREO DE ACTIVACIÓN
 -----------------------------------
 Opción A — Envía tú mismo una prueba desde la web publicada
