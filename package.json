@@ -1,0 +1,25 @@
+{
+  "name": "reformas-nyn",
+  "version": "1.0.0",
+  "description": "Sitio web estático para empresa de reformas en Valencia. Diseño premium (negro + dorado), responsive y fácil de modificar sin programar.",
+  "main": "index.html",
+  "type": "module",
+  "scripts": {
+    "dev": "npx serve .",
+    "test": "echo \"No tests specified\""
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/nisansi/reformas_N-N.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/nisansi/reformas_N-N/issues"
+  },
+  "homepage": "https://github.com/nisansi/reformas_N-N#readme",
+  "dependencies": {
+    "@vercel/speed-insights": "^2.0.0"
+  }
+}
