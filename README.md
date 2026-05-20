@@ -96,18 +96,33 @@ web3formsAccessKey: 'tu-clave-aqui',
 
 Si hay clave, se usa Web3Forms en lugar de FormSubmit.
 
-## Publicar en internet (recomendado: Netlify)
+## Publicar en Vercel (recomendado)
 
-**Netlify** es la opción más sencilla para esta web estática + formulario:
+Tu código ya está en GitHub: [github.com/nisansi/reformas_N-N](https://github.com/nisansi/reformas_N-N)
 
-1. Ve a [app.netlify.com/drop](https://app.netlify.com/drop)
-2. Arrastra la carpeta completa del proyecto
-3. Te dará una URL tipo `https://nombre-random.netlify.app`
-4. Activa el formulario (pasos de arriba) con la URL ya publicada
+### Pasos
 
-Otras opciones válidas: **GitHub Pages**, **Cloudflare Pages**, o tu hosting por FTP (sube todos los archivos).
+1. Entra en [vercel.com](https://vercel.com) e inicia sesión (con tu cuenta de **GitHub**).
+2. Pulsa **Add New…** → **Project**.
+3. Importa el repositorio **reformas_N-N** (si no aparece, autoriza a Vercel en GitHub).
+4. Deja la configuración así:
+   - **Framework Preset:** Other
+   - **Build Command:** vacío (no hace falta compilar)
+   - **Output Directory:** `.` o déjalo por defecto
+5. Pulsa **Deploy**.
+6. En 1–2 minutos tendrás una URL tipo `https://reformas-n-n.vercel.app`.
 
-Dominio propio: en Netlify → Domain settings → añade `www.tudominio.com`.
+Cada vez que hagas `git push` a `main`, Vercel **actualizará la web sola**.
+
+### Dominio propio
+
+En el proyecto de Vercel → **Settings** → **Domains** → añade tu dominio (ej. `www.reformasnvalencia.com`) y sigue las instrucciones DNS.
+
+### Activar el formulario
+
+Tras el primer deploy, abre la URL de Vercel, envía un formulario de prueba y activa el correo de **FormSubmit** (ver sección anterior).
+
+Otras opciones: **Netlify**, **GitHub Pages**, hosting por FTP.
 
 ## Imágenes
 
