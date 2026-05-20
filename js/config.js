@@ -86,26 +86,79 @@ const SITE_CONFIG = {
 
   proyectos: {
     titulo: 'Nuestros últimos proyectos',
-    boton: { texto: 'Ver todos los proyectos', enlace: '#proyectos' },
+    boton: {
+      texto: 'Ver todos los proyectos',
+      enlace: 'proyectos.html',
+      nuevaPestana: true,
+    },
+    galeria: {
+      titulo: 'Galería de proyectos',
+      subtitulo:
+        'Reformas integrales, baños y cocinas realizadas en Valencia y provincia. Haz clic en un proyecto para ver las fotos.',
+      seoTitle: 'Proyectos — Reformas N&N Valencia',
+      seoDescription:
+        'Galería de reformas integrales, baños y cocinas en Valencia. Trabajos realizados por Reformas N&N.',
+    },
+    /* Filtros de la galería (categoria debe coincidir con items[].categoria) */
+    categorias: [
+      { id: 'todos', label: 'Todos' },
+      { id: 'integral', label: 'Integrales' },
+      { id: 'bano', label: 'Baños' },
+      { id: 'cocina', label: 'Cocinas' },
+      { id: 'otro', label: 'Otros' },
+    ],
+    /*
+     * AÑADE TUS PROYECTOS AQUÍ (copia un bloque y cambia datos + imagen)
+     * destacado: true → aparece en la página de inicio (máx. 3)
+     * imagenes: [] → fotos extra en el visor al hacer clic
+     */
     items: [
       {
+        id: 'integral-liria-1',
         titulo: 'Reforma Integral',
         ubicacion: 'Llíria',
+        categoria: 'integral',
         imagen: 'images/gallery_1.jpg',
         imagenAlt: 'Reforma integral en Llíria',
+        descripcion: 'Renovación completa de vivienda con acabados de calidad.',
+        destacado: true,
+        imagenes: ['images/gallery_1.jpg'],
       },
       {
+        id: 'bano-valencia-1',
         titulo: 'Reforma de Baño',
         ubicacion: 'Valencia',
+        categoria: 'bano',
         imagen: 'images/gallery_2.jpg',
         imagenAlt: 'Reforma de baño en Valencia',
+        descripcion: 'Baño moderno con plato de ducha y grifería premium.',
+        destacado: true,
+        imagenes: ['images/gallery_2.jpg'],
       },
       {
+        id: 'bano-liria-1',
         titulo: 'Reforma de Baño',
         ubicacion: 'Llíria',
+        categoria: 'bano',
         imagen: 'images/gallery_3.jpg',
         imagenAlt: 'Reforma de baño en Llíria',
+        descripcion: 'Optimización del espacio con materiales resistentes.',
+        destacado: true,
+        imagenes: ['images/gallery_3.jpg'],
       },
+      /* Ejemplo: descomenta y añade tu foto en images/gallery_4.jpg
+      {
+        id: 'cocina-valencia-1',
+        titulo: 'Reforma de Cocina',
+        ubicacion: 'Valencia',
+        categoria: 'cocina',
+        imagen: 'images/gallery_4.jpg',
+        imagenAlt: 'Cocina reformada en Valencia',
+        descripcion: 'Cocina abierta con isla central.',
+        destacado: false,
+        imagenes: ['images/gallery_4.jpg'],
+      },
+      */
     ],
   },
 
@@ -163,7 +216,7 @@ const SITE_CONFIG = {
     ],
     empresa: [
       { texto: 'Sobre Nosotros', enlace: '#' },
-      { texto: 'Proyectos', enlace: '#proyectos' },
+      { texto: 'Proyectos', enlace: 'proyectos.html' },
       { texto: 'Presupuesto', enlace: '#contacto' },
       { texto: 'Contacto', enlace: '#contacto' },
     ],

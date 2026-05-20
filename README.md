@@ -52,18 +52,23 @@ En `servicios.items`, copia un bloque y cambia título y descripción:
 
 ### Añadir un proyecto a la galería
 
-En `proyectos.items`:
+En `js/config.js` → `proyectos.items`, copia un bloque:
 
 ```javascript
 {
+  id: 'cocina-valencia-2',
   titulo: 'Reforma de Cocina',
-  ubicacion: 'Burjassot',
+  ubicacion: 'Valencia',
+  categoria: 'cocina',       // integral | bano | cocina | otro
   imagen: 'images/gallery_4.jpg',
-  imagenAlt: 'Cocina moderna reformada en Burjassot',
+  imagenAlt: 'Descripción de la foto',
+  descripcion: 'Texto breve del proyecto.',
+  destacado: false,          // true = aparece también en la página de inicio
+  imagenes: ['images/gallery_4.jpg', 'images/gallery_4b.jpg'], // varias fotos
 },
 ```
 
-Sube la foto a `images/gallery_4.jpg`.
+Sube las fotos a la carpeta `images/`. El botón **Ver todos los proyectos** abre `proyectos.html` en una pestaña nueva.
 
 ## Colores y tipografías
 

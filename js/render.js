@@ -91,26 +91,25 @@
     const grid = document.getElementById('projects-grid');
     const title = document.getElementById('projects-title');
     const btn = document.getElementById('projects-btn');
+    const utils = window.ProjectUtils;
+
     if (title) setText(title, cfg.proyectos.titulo);
     if (btn) {
       btn.textContent = cfg.proyectos.boton.texto;
       btn.href = cfg.proyectos.boton.enlace;
+      if (cfg.proyectos.boton.nuevaPestana) {
+        btn.target = '_blank';
+        btn.rel = 'noopener noreferrer';
+      } else {
+        btn.removeAttribute('target');
+        btn.removeAttribute('rel');
+      }
     }
-    if (!grid) return;
-    grid.innerHTML = cfg.proyectos.items
-      .map(
-        (p) => `
-      <div class="project-card reveal">
-        <div class="project-card-img">
-          <img src="${p.imagen}" alt="${p.imagenAlt}" loading="lazy">
-          <div class="project-card-overlay"><span>Ver Proyecto</span></div>
-        </div>
-        <div class="project-card-info">
-          <h3>${p.titulo}</h3>
-          <div class="location">${ICONS.location} ${p.ubicacion}</div>
-        </div>
-      </div>`
-      )
+    if (!grid || !utils) return;
+
+    const featured = utils.getFeaturedProjects(cfg.proyectos.items, 3);
+    grid.innerHTML = featured
+      .map((p) => utils.buildProjectCard(p))
       .join('');
   }
 
