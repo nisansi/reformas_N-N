@@ -1,13 +1,13 @@
 ═══════════════════════════════════════════════════════════════
   ACTIVAR EL FORMULARIO DE LA WEB (FormSubmit)
-  Correo: reformasnyn@hotmail.com
+  Correo: Reformasnyn@hotmail.com
 ═══════════════════════════════════════════════════════════════
 
 ¿POR QUÉ HAY QUE ACTIVARLO?
 ---------------------------
 FormSubmit es un servicio GRATIS que reenvía los mensajes del
 formulario de tu web a tu correo. La primera vez, Hotmail debe
-confirmar que TÚ eres el dueño de reformasnyn@hotmail.com.
+confirmar que TÚ eres el dueño de Reformasnyn@hotmail.com.
 Solo tú puedes hacerlo (abriendo un email). Nadie más puede
 activarlo por ti, ni siquiera quien hizo la web.
 
@@ -16,7 +16,7 @@ PASO 1 — Abre tu correo
 -------------------------
 Entra en Outlook / Hotmail con la cuenta:
 
-   reformasnyn@hotmail.com
+   Reformasnyn@hotmail.com
 
 Revisa estas carpetas (en este orden):
    1. Bandeja de entrada
@@ -51,7 +51,7 @@ PASO 3 — Prueba la web
 
 4. Debe salir el mensaje verde: "Solicitud enviada..."
 
-5. En 1-5 minutos debe llegar OTRO correo a reformasnyn@hotmail.com
+5. En 1-5 minutos debe llegar OTRO correo a Reformasnyn@hotmail.com
    con los datos del cliente (nombre, teléfono, tipo de reforma...).
 
 
@@ -72,7 +72,7 @@ Opción C — Vuelve a enviar desde la web tras 10 minutos
 DESPUÉS DE ACTIVAR
 ------------------
 ✓ Cada presupuesto que envíen desde la web llegará a
-  reformasnyn@hotmail.com
+  Reformasnyn@hotmail.com
 
 ✓ El visitante verá "enviado correctamente" en pantalla
 
@@ -89,7 +89,7 @@ SI CAMBIAS DE EMAIL EN EL FUTURO
 CÓDIGO YA CONFIGURADO EN TU WEB
 -------------------------------
 Archivo: js/config.js
-   email: 'reformasnyn@hotmail.com'
+   email: 'Reformasnyn@hotmail.com'
 
 Archivo: js/form-email.js
    Envía automáticamente a ese correo vía FormSubmit.

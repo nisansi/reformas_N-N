@@ -79,13 +79,13 @@ Edita las variables al inicio de `style.css`:
 
 ## Formulario → correo electrónico
 
-El formulario envía a **reformasnyn@hotmail.com** usando [FormSubmit](https://formsubmit.co) (gratis).
+El formulario envía a **Reformasnyn@hotmail.com** usando [FormSubmit](https://formsubmit.co) (gratis).
 
 **Guía completa de activación:** lee `COMO-ACTIVAR-FORMSUBMIT.txt` en la raíz del proyecto.
 
 ### Activación (solo una vez — debes hacerlo tú)
 
-1. Revisa **reformasnyn@hotmail.com** (y **Spam**)
+1. Revisa **Reformasnyn@hotmail.com** (y **Spam**)
 2. Busca un email de **FormSubmit** → asunto *Activate Form*
 3. Pulsa el enlace **Activate Form**
 4. Prueba el formulario en la web publicada (Vercel)

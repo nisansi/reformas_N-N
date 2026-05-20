@@ -12,8 +12,8 @@ const SITE_CONFIG = {
     telefono: '+34 619 45 34 12',
     telefonoHref: 'tel:+34619453412',
     telefonoDisplay: '619 45 34 12',
-    email: 'quique-galvez@hotmail.com',
-    emailHref: 'mailto:quique-galvez@hotmail.com',
+    email: 'Reformasnyn@hotmail.com',
+    emailHref: 'mailto:Reformasnyn@hotmail.com',
     copyrightYear: new Date().getFullYear(),
   },
 
@@ -195,7 +195,7 @@ const SITE_CONFIG = {
        * Opcional (más estable): regístrate en https://web3forms.com,
        * copia tu Access Key y pégala en web3formsAccessKey.
        */
-      emailDestino: 'reformasnyn@hotmail.com', // FormSubmit envía aquí
+      emailDestino: 'Reformasnyn@hotmail.com', // FormSubmit envía aquí
       web3formsAccessKey: '',
       formspreeEndpoint: '', // ej: https://formspree.io/f/xxxxxx
       asuntoEmail: 'Nuevo presupuesto — Reformas N&N Valencia',
