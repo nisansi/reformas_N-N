@@ -250,8 +250,4 @@
   }
 
   document.addEventListener('site:rendered', initContactForm, { once: true });
-
-  if (document.getElementById('contact-form') && document.getElementById('services-grid')?.children.length) {
-    initContactForm();
-  }
 })();
