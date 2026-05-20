@@ -160,16 +160,7 @@ const SITE_CONFIG = {
       },
       */
     ],
-    { id: 'cocina-benisano-1',
-        titulo: 'Reforma de Cocina',
-        ubicacion: 'Valencia',
-        categoria: 'cocina',
-        imagen: 'images/gallery_4.jpg',
-        imagenAlt: 'Cocina reformada en Valencia',
-        descripcion: 'Cocina abierta con isla central.',
-        destacado: true,
-        imagenes: ['images/gallery_4.jpg'],
-      }
+
   },
 
   proceso: {
