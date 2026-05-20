@@ -1,0 +1,46 @@
+CÓMO AÑADIR UN PROYECTO NUEVO (Reformas N&N)
+============================================
+
+IMPORTANTE: Edita el archivo con CURSOR o VS Code, NO solo Bloc de notas.
+Guarda siempre: Ctrl + S
+
+PASO 1 — Foto
+-------------
+Copia tu foto a la carpeta:  images/
+Nombre ejemplo:  gallery_5.jpg  (sin espacios, minúsculas)
+
+PASO 2 — Código
+---------------
+Abre:  js/config.js
+Busca:  items: [
+Al final de la lista, ANTES del cierre ], pega esto (cambia los textos):
+
+      {
+        id: 'mi-proyecto-2',
+        titulo: 'Reforma de Cocina',
+        ubicacion: 'Valencia',
+        categoria: 'cocina',
+        imagen: 'images/gallery_5.jpg',
+        imagenAlt: 'Descripción de la foto',
+        descripcion: 'Texto breve del trabajo.',
+        destacado: false,
+        imagenes: ['images/gallery_5.jpg'],
+      },
+
+⚠️ NO pongas /* ni */ alrededor del bloque. Eso lo "apaga" y no sale en la web.
+
+PASO 3 — Subir a internet
+-------------------------
+En la terminal (carpeta del proyecto):
+
+  git add -A
+  git commit -m "Nuevo proyecto en galería"
+  git push
+
+Vercel se actualiza solo en 1-2 minutos.
+
+PASO 4 — Ver en local
+---------------------
+  npx serve .
+Abre: http://localhost:3000/proyectos.html
+Pulsa Ctrl+F5 para refrescar sin caché.

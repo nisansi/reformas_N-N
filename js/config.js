@@ -146,7 +146,6 @@ const SITE_CONFIG = {
         destacado: true,
         imagenes: ['images/gallery_3.jpg'],
       },
-      /* Ejemplo: descomenta y añade tu foto en images/gallery_4.jpg
       {
         id: 'cocina-valencia-1',
         titulo: 'Reforma de Cocina',
@@ -154,11 +153,10 @@ const SITE_CONFIG = {
         categoria: 'cocina',
         imagen: 'images/gallery_4.jpg',
         imagenAlt: 'Cocina reformada en Valencia',
-        descripcion: 'Cocina abierta con isla central.',
+        descripcion: 'Cocina abierta con isla central y acabados modernos.',
         destacado: false,
         imagenes: ['images/gallery_4.jpg'],
       },
-      */
     ],
   },
 
