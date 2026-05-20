@@ -1,0 +1,13 @@
+# Design files (not needed for production)
+DESIGN.md
+screen.png
+
+# OS files
+.DS_Store
+Thumbs.db
+desktop.ini
+
+# Old generated images (replaced by real photos)
+images/project_integral.png
+images/project_bathroom.png
+images/project_kitchen.png

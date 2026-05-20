@@ -1,0 +1,13 @@
+IMÁGENES DE LA WEB — Reformas N&N Valencia
+=========================================
+
+Coloca aquí tus fotos reales con estos nombres (o cambia las rutas en js/config.js):
+
+  hero.png       → Foto principal del banner (recomendado: 1920×1080 px)
+  gallery_1.jpg  → Proyecto 1 (recomendado: 800×600 px)
+  gallery_2.jpg  → Proyecto 2
+  gallery_3.jpg  → Proyecto 3
+
+Formato: JPG o WebP. Peso ideal: menos de 300 KB por imagen.
+
+Si aún no tienes fotos, la web mostrará un fondo de respaldo hasta que las subas.
