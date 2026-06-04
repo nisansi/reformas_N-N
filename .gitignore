@@ -11,3 +11,6 @@ desktop.ini
 images/project_integral.png
 images/project_bathroom.png
 images/project_kitchen.png
+
+# Dependencies
+node_modules/
