@@ -140,7 +140,7 @@ const SITE_CONFIG = {
         titulo: 'Reforma de Baño',
         ubicacion: 'Llíria',
         categoria: 'bano',
-        imagen: 'images/gallery_3.jpg',
+        imagen: 'images/gallery_3.jpg''images/gallery_2.jpg',
         imagenAlt: 'Reforma de baño en Llíria',
         descripcion: 'Optimización del espacio con materiales resistentes.',
         destacado: true,
