@@ -170,19 +170,20 @@ const SITE_CONFIG = {
         destacado: true,
         imagenes: ['images/gallery_4.jpg'],
       },
-      {
-    
+            {
         id: 'paellero-liria-1',
         titulo: 'Reforma de Paellero',
         ubicacion: 'Llíria',
-        categoria: 'otros',
+        categoria: 'otro',
         imagen: 'images/gallery_5.jpg',
         imagenAlt: 'Zona de paellero en Lliria',
         descripcion: 'Paellero completamente reformado en Llíria.',
         destacado: true,
         imagenes: ['images/gallery_5.jpg'],
+      },
     ],
   },
+
 
   proceso: {
     titulo: 'Nuestro proceso',
