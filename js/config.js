@@ -144,7 +144,8 @@ const SITE_CONFIG = {
         imagenAlt: 'Reforma de baño en Llíria',
         descripcion: 'Optimización del espacio con materiales resistentes.',
         destacado: true,
-        imagenes: ['images/gallery_3.jpg'],
+        imagenes: ['images/gallery_3.jpg',
+                  'images/gallery_2.jpg],
       },
       /* Ejemplo: descomenta y añade tu foto en images/gallery_4.jpg
       {
