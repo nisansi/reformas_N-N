@@ -170,8 +170,9 @@ const SITE_CONFIG = {
         destacado: true,
         imagenes: ['images/gallery_4.jpg'],
       },
+      {
     
-      id: 'paellero-liria-1',
+        id: 'paellero-liria-1',
         titulo: 'Reforma de Paellero',
         ubicacion: 'Llíria',
         categoria: 'otros',
@@ -181,8 +182,6 @@ const SITE_CONFIG = {
         destacado: true,
         imagenes: ['images/gallery_5.jpg'],
     ],
-  
-
   },
 
   proceso: {
