@@ -145,7 +145,8 @@ const SITE_CONFIG = {
         descripcion: 'Optimización del espacio con materiales resistentes.',
         destacado: true,
         imagenes: ['images/gallery_3.jpg',
-                  'images/gallery_2.jpg],
+                  'images/gallery_2.jpg',
+                  ],
       },
       /* Ejemplo: descomenta y añade tu foto en images/gallery_4.jpg
       {
